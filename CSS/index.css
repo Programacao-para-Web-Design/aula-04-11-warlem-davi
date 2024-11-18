@@ -15,14 +15,39 @@
 body {
     font-family: Verdana, sans-serif; 
     margin:0;
+    background-color: #FFD101;
 }
 #segmento1{
+    background-color: white;
+    margin-bottom: 30px;
     display: block;
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    border: solid black 1px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(28, 28, 28, 0.3) 10px 10px, rgba(89, 89, 89, 0.2) 15px 15px, rgba(142, 142, 142, 0.1) 20px 20px, rgba(220, 220, 220, 0.05) 25px 25px;
 }
 .Titulo{
     font-weight: bold;
+    font-family: font1;
+    font-size: 50px;
+}
+#mid{
+    margin: 20px;
+    font-size: 100px;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    font-family: MaximumVoltageItalic;
+}
+#SubTitulo{
+    font-size: 20px;
+    justify-content: center;
 }
 
 /* --- //////////////////////////////////////////////////////// HEADER //////////////////////////////////////////////////////// --- */
@@ -69,19 +94,37 @@ ul{
 #P1{
     position: absolute;
     right: 90%;
+
 }
 #P2{
     position: absolute;
     left: 90%;
+    top: 10%;
 }
 #Bola{
     position: absolute;
+    left: 50%;   
 }
-#mid{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 50%;
+#Bola2{
+    position: absolute;
+    left: 50.5%;
+    top: 35%;
+    rotate: 10deg;
+    opacity: 0.5;
+}
+#Bola3{
+    position: absolute;
+    left: 51%;   
+    top: 34%;
+    rotate: 30deg;
+    opacity: 0.3;
+}
+#Bola4{
+    position: absolute;
+    left: 51.5%;
+    rotate: 60deg;
+    top: 33%;
+    opacity: 0.1;
 }
 
 
@@ -136,4 +179,12 @@ img {
 
 hr{
     top: 50px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
 }
